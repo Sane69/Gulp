@@ -1,0 +1,10 @@
+@import "responce";
+@import "normalize";
+@import "variebles";
+
+body {
+  background-color: bisque;
+  @include mediaw(1000px) {
+    background-color: rgb(229, 170, 170);
+  }
+}
